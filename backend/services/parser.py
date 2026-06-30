@@ -5,7 +5,7 @@ import re
 from openai import OpenAI
 
 # DeepSeek-compatible API (uses OpenAI SDK base_url)
-LLM_API_KEY = os.getenv("DEEPSEEK_API_KEY", "YOUR_DEEPSEEK_API_KEY")
+LLM_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 LLM_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 LLM_MODEL = os.getenv("LLM_MODEL", "deepseek-chat")
 
